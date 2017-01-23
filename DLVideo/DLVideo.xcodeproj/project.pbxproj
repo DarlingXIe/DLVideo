@@ -1,0 +1,664 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62F920A4CC465684F1DFA41A /* libPods-DLVideo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 555756E953937A3B09856769 /* libPods-DLVideo.a */; };
+		F76572F91E35503900EDEF80 /* DLTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = F76572F81E35503900EDEF80 /* DLTopView.m */; };
+		F76573031E35845000EDEF80 /* HttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F76573001E35845000EDEF80 /* HttpTool.m */; };
+		F76573041E35845000EDEF80 /* UIImageView+SDWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = F76573021E35845000EDEF80 /* UIImageView+SDWebImage.m */; };
+		F76573071E3595C700EDEF80 /* DLADViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F76573061E3595C700EDEF80 /* DLADViewModel.m */; };
+		F765730A1E3595E600EDEF80 /* DLHotViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F76573091E3595E600EDEF80 /* DLHotViewModel.m */; };
+		F765730D1E359BC800EDEF80 /* DLHotModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F765730C1E359BC800EDEF80 /* DLHotModel.m */; };
+		F76573101E35A2A100EDEF80 /* DLCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = F765730F1E35A2A100EDEF80 /* DLCreator.m */; };
+		F76573131E35A95200EDEF80 /* MJExtensionConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = F76573121E35A95200EDEF80 /* MJExtensionConfig.m */; };
+		F76573161E35AC2E00EDEF80 /* DLADModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F76573151E35AC2E00EDEF80 /* DLADModel.m */; };
+		F78FBDE81E32AA6500D87903 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F78FBDE71E32AA6500D87903 /* main.m */; };
+		F78FBDEB1E32AA6500D87903 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F78FBDEA1E32AA6500D87903 /* AppDelegate.m */; };
+		F78FBDF11E32AA6500D87903 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F78FBDEF1E32AA6500D87903 /* Main.storyboard */; };
+		F78FBDF31E32AA6500D87903 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F78FBDF21E32AA6500D87903 /* Assets.xcassets */; };
+		F78FBDF61E32AA6500D87903 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F78FBDF41E32AA6500D87903 /* LaunchScreen.storyboard */; };
+		F78FBE0A1E32BD3300D87903 /* BaseTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F78FBE091E32BD3300D87903 /* BaseTabBarViewController.m */; };
+		F78FBE0F1E32BDC800D87903 /* DLTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F78FBE0E1E32BDC800D87903 /* DLTabBar.m */; };
+		F78FBE121E33304F00D87903 /* DLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F78FBE111E33304F00D87903 /* DLBaseViewController.m */; };
+		F78FBE161E33306200D87903 /* DLMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F78FBE141E33306200D87903 /* DLMainViewController.m */; };
+		F78FBE171E33306200D87903 /* DLMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F78FBE151E33306200D87903 /* DLMainViewController.xib */; };
+		F78FBE1B1E33307200D87903 /* DLMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F78FBE191E33307200D87903 /* DLMeViewController.m */; };
+		F78FBE1C1E33307200D87903 /* DLMeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F78FBE1A1E33307200D87903 /* DLMeViewController.xib */; };
+		F78FBE1F1E33320400D87903 /* DLBaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F78FBE1E1E33320400D87903 /* DLBaseNavigationViewController.m */; };
+		F78FBE291E33C20C00D87903 /* DLNearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F78FBE271E33C20C00D87903 /* DLNearViewController.m */; };
+		F78FBE2A1E33C20C00D87903 /* DLNearViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F78FBE281E33C20C00D87903 /* DLNearViewController.xib */; };
+		F78FBE2E1E341E7200D87903 /* DLLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F78FBE2C1E341E7200D87903 /* DLLaunchViewController.m */; };
+		F78FBE2F1E341E7200D87903 /* DLLaunchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F78FBE2D1E341E7200D87903 /* DLLaunchViewController.xib */; };
+		F78FBE321E3425D800D87903 /* DLFocusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F78FBE311E3425D800D87903 /* DLFocusViewController.m */; };
+		F78FBE351E3425EC00D87903 /* DLHotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F78FBE341E3425EC00D87903 /* DLHotViewController.m */; };
+		F78FBE381E342BFE00D87903 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = F78FBE371E342BFE00D87903 /* UIView+Frame.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		555756E953937A3B09856769 /* libPods-DLVideo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DLVideo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C649FCBA11BA43D7685A3943 /* Pods-DLVideo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DLVideo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DLVideo/Pods-DLVideo.debug.xcconfig"; sourceTree = "<group>"; };
+		D978BB3C2660E3FA5415F92F /* Pods-DLVideo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DLVideo.release.xcconfig"; path = "Pods/Target Support Files/Pods-DLVideo/Pods-DLVideo.release.xcconfig"; sourceTree = "<group>"; };
+		F76572F71E35503900EDEF80 /* DLTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLTopView.h; sourceTree = "<group>"; };
+		F76572F81E35503900EDEF80 /* DLTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLTopView.m; sourceTree = "<group>"; };
+		F76572FE1E35845000EDEF80 /* APIConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIConfig.h; sourceTree = "<group>"; };
+		F76572FF1E35845000EDEF80 /* HttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpTool.h; sourceTree = "<group>"; };
+		F76573001E35845000EDEF80 /* HttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpTool.m; sourceTree = "<group>"; };
+		F76573011E35845000EDEF80 /* UIImageView+SDWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+SDWebImage.h"; sourceTree = "<group>"; };
+		F76573021E35845000EDEF80 /* UIImageView+SDWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+SDWebImage.m"; sourceTree = "<group>"; };
+		F76573051E3595C700EDEF80 /* DLADViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLADViewModel.h; sourceTree = "<group>"; };
+		F76573061E3595C700EDEF80 /* DLADViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLADViewModel.m; sourceTree = "<group>"; };
+		F76573081E3595E600EDEF80 /* DLHotViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLHotViewModel.h; sourceTree = "<group>"; };
+		F76573091E3595E600EDEF80 /* DLHotViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLHotViewModel.m; sourceTree = "<group>"; };
+		F765730B1E359BC800EDEF80 /* DLHotModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLHotModel.h; sourceTree = "<group>"; };
+		F765730C1E359BC800EDEF80 /* DLHotModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLHotModel.m; sourceTree = "<group>"; };
+		F765730E1E35A2A100EDEF80 /* DLCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLCreator.h; sourceTree = "<group>"; };
+		F765730F1E35A2A100EDEF80 /* DLCreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLCreator.m; sourceTree = "<group>"; };
+		F76573111E35A95200EDEF80 /* MJExtensionConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConfig.h; sourceTree = "<group>"; };
+		F76573121E35A95200EDEF80 /* MJExtensionConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConfig.m; sourceTree = "<group>"; };
+		F76573141E35AC2E00EDEF80 /* DLADModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLADModel.h; sourceTree = "<group>"; };
+		F76573151E35AC2E00EDEF80 /* DLADModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLADModel.m; sourceTree = "<group>"; };
+		F78FBDE31E32AA6400D87903 /* DLVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DLVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F78FBDE71E32AA6500D87903 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F78FBDE91E32AA6500D87903 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F78FBDEA1E32AA6500D87903 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F78FBDF01E32AA6500D87903 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F78FBDF21E32AA6500D87903 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F78FBDF51E32AA6500D87903 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F78FBDF71E32AA6500D87903 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F78FBE071E32AECA00D87903 /* DLVideo.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLVideo.pch; sourceTree = "<group>"; };
+		F78FBE081E32BD3300D87903 /* BaseTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabBarViewController.h; sourceTree = "<group>"; };
+		F78FBE091E32BD3300D87903 /* BaseTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarViewController.m; sourceTree = "<group>"; };
+		F78FBE0D1E32BDC800D87903 /* DLTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLTabBar.h; sourceTree = "<group>"; };
+		F78FBE0E1E32BDC800D87903 /* DLTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLTabBar.m; sourceTree = "<group>"; };
+		F78FBE101E33304F00D87903 /* DLBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLBaseViewController.h; sourceTree = "<group>"; };
+		F78FBE111E33304F00D87903 /* DLBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLBaseViewController.m; sourceTree = "<group>"; };
+		F78FBE131E33306200D87903 /* DLMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLMainViewController.h; sourceTree = "<group>"; };
+		F78FBE141E33306200D87903 /* DLMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLMainViewController.m; sourceTree = "<group>"; };
+		F78FBE151E33306200D87903 /* DLMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DLMainViewController.xib; sourceTree = "<group>"; };
+		F78FBE181E33307200D87903 /* DLMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLMeViewController.h; sourceTree = "<group>"; };
+		F78FBE191E33307200D87903 /* DLMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLMeViewController.m; sourceTree = "<group>"; };
+		F78FBE1A1E33307200D87903 /* DLMeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DLMeViewController.xib; sourceTree = "<group>"; };
+		F78FBE1D1E33320400D87903 /* DLBaseNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLBaseNavigationViewController.h; sourceTree = "<group>"; };
+		F78FBE1E1E33320400D87903 /* DLBaseNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLBaseNavigationViewController.m; sourceTree = "<group>"; };
+		F78FBE261E33C20C00D87903 /* DLNearViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLNearViewController.h; sourceTree = "<group>"; };
+		F78FBE271E33C20C00D87903 /* DLNearViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLNearViewController.m; sourceTree = "<group>"; };
+		F78FBE281E33C20C00D87903 /* DLNearViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DLNearViewController.xib; sourceTree = "<group>"; };
+		F78FBE2B1E341E7200D87903 /* DLLaunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLLaunchViewController.h; sourceTree = "<group>"; };
+		F78FBE2C1E341E7200D87903 /* DLLaunchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLLaunchViewController.m; sourceTree = "<group>"; };
+		F78FBE2D1E341E7200D87903 /* DLLaunchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DLLaunchViewController.xib; sourceTree = "<group>"; };
+		F78FBE301E3425D800D87903 /* DLFocusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLFocusViewController.h; sourceTree = "<group>"; };
+		F78FBE311E3425D800D87903 /* DLFocusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLFocusViewController.m; sourceTree = "<group>"; };
+		F78FBE331E3425EC00D87903 /* DLHotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLHotViewController.h; sourceTree = "<group>"; };
+		F78FBE341E3425EC00D87903 /* DLHotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLHotViewController.m; sourceTree = "<group>"; };
+		F78FBE361E342BFE00D87903 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		F78FBE371E342BFE00D87903 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F78FBDE01E32AA6400D87903 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62F920A4CC465684F1DFA41A /* libPods-DLVideo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72A716E822AA3589592F0E54 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C649FCBA11BA43D7685A3943 /* Pods-DLVideo.debug.xcconfig */,
+				D978BB3C2660E3FA5415F92F /* Pods-DLVideo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DB8EEC27DB5DC9F952531337 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				555756E953937A3B09856769 /* libPods-DLVideo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F76572FA1E35787100EDEF80 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F78FBE131E33306200D87903 /* DLMainViewController.h */,
+				F78FBE141E33306200D87903 /* DLMainViewController.m */,
+				F78FBE151E33306200D87903 /* DLMainViewController.xib */,
+				F78FBE261E33C20C00D87903 /* DLNearViewController.h */,
+				F78FBE271E33C20C00D87903 /* DLNearViewController.m */,
+				F78FBE281E33C20C00D87903 /* DLNearViewController.xib */,
+				F78FBE301E3425D800D87903 /* DLFocusViewController.h */,
+				F78FBE311E3425D800D87903 /* DLFocusViewController.m */,
+				F78FBE331E3425EC00D87903 /* DLHotViewController.h */,
+				F78FBE341E3425EC00D87903 /* DLHotViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		F76572FB1E35788300EDEF80 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F76572FC1E35788A00EDEF80 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F765730B1E359BC800EDEF80 /* DLHotModel.h */,
+				F765730C1E359BC800EDEF80 /* DLHotModel.m */,
+				F765730E1E35A2A100EDEF80 /* DLCreator.h */,
+				F765730F1E35A2A100EDEF80 /* DLCreator.m */,
+				F76573141E35AC2E00EDEF80 /* DLADModel.h */,
+				F76573151E35AC2E00EDEF80 /* DLADModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F76572FD1E3578A500EDEF80 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F76573051E3595C700EDEF80 /* DLADViewModel.h */,
+				F76573061E3595C700EDEF80 /* DLADViewModel.m */,
+				F76573081E3595E600EDEF80 /* DLHotViewModel.h */,
+				F76573091E3595E600EDEF80 /* DLHotViewModel.m */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		F78FBDDA1E32AA6400D87903 = {
+			isa = PBXGroup;
+			children = (
+				F78FBDE51E32AA6400D87903 /* DLVideo */,
+				F78FBDE41E32AA6400D87903 /* Products */,
+				72A716E822AA3589592F0E54 /* Pods */,
+				DB8EEC27DB5DC9F952531337 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F78FBDE41E32AA6400D87903 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F78FBDE31E32AA6400D87903 /* DLVideo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F78FBDE51E32AA6400D87903 /* DLVideo */ = {
+			isa = PBXGroup;
+			children = (
+				F78FBDFD1E32AA7800D87903 /* Class */,
+				F78FBDE61E32AA6400D87903 /* Supporting Files */,
+			);
+			path = DLVideo;
+			sourceTree = "<group>";
+		};
+		F78FBDE61E32AA6400D87903 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F78FBDE91E32AA6500D87903 /* AppDelegate.h */,
+				F78FBDEA1E32AA6500D87903 /* AppDelegate.m */,
+				F78FBDEF1E32AA6500D87903 /* Main.storyboard */,
+				F78FBDF21E32AA6500D87903 /* Assets.xcassets */,
+				F78FBDF41E32AA6500D87903 /* LaunchScreen.storyboard */,
+				F78FBDF71E32AA6500D87903 /* Info.plist */,
+				F78FBDE71E32AA6500D87903 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F78FBDFD1E32AA7800D87903 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				F76572FD1E3578A500EDEF80 /* ViewModel */,
+				F78FBDFE1E32AA7800D87903 /* Base */,
+				F78FBDFF1E32AA7800D87903 /* Launch */,
+				F78FBE001E32AA7800D87903 /* Lib */,
+				F78FBE011E32AA7800D87903 /* Live */,
+				F78FBE021E32AA7800D87903 /* Me */,
+				F78FBE031E32AA7800D87903 /* NetWork */,
+				F78FBE041E32AA7800D87903 /* Other */,
+				F78FBE051E32AA7800D87903 /* Show */,
+				F78FBE061E32AA7800D87903 /* Tools */,
+			);
+			name = Class;
+			path = ../../Class;
+			sourceTree = "<group>";
+		};
+		F78FBDFE1E32AA7800D87903 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F78FBE0C1E32BD5C00D87903 /* View */,
+				F78FBE0B1E32BD4B00D87903 /* Controller */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		F78FBDFF1E32AA7800D87903 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				F78FBE2B1E341E7200D87903 /* DLLaunchViewController.h */,
+				F78FBE2C1E341E7200D87903 /* DLLaunchViewController.m */,
+				F78FBE2D1E341E7200D87903 /* DLLaunchViewController.xib */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		F78FBE001E32AA7800D87903 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		F78FBE011E32AA7800D87903 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		F78FBE021E32AA7800D87903 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				F78FBE181E33307200D87903 /* DLMeViewController.h */,
+				F78FBE191E33307200D87903 /* DLMeViewController.m */,
+				F78FBE1A1E33307200D87903 /* DLMeViewController.xib */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		F78FBE031E32AA7800D87903 /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				F76572FE1E35845000EDEF80 /* APIConfig.h */,
+				F76572FF1E35845000EDEF80 /* HttpTool.h */,
+				F76573001E35845000EDEF80 /* HttpTool.m */,
+				F76573011E35845000EDEF80 /* UIImageView+SDWebImage.h */,
+				F76573021E35845000EDEF80 /* UIImageView+SDWebImage.m */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		F78FBE041E32AA7800D87903 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				F78FBE071E32AECA00D87903 /* DLVideo.pch */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		F78FBE051E32AA7800D87903 /* Show */ = {
+			isa = PBXGroup;
+			children = (
+				F76572FC1E35788A00EDEF80 /* Model */,
+				F76572FB1E35788300EDEF80 /* View */,
+				F76572FA1E35787100EDEF80 /* Controller */,
+			);
+			path = Show;
+			sourceTree = "<group>";
+		};
+		F78FBE061E32AA7800D87903 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				F78FBE361E342BFE00D87903 /* UIView+Frame.h */,
+				F78FBE371E342BFE00D87903 /* UIView+Frame.m */,
+				F76573111E35A95200EDEF80 /* MJExtensionConfig.h */,
+				F76573121E35A95200EDEF80 /* MJExtensionConfig.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		F78FBE0B1E32BD4B00D87903 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F78FBE081E32BD3300D87903 /* BaseTabBarViewController.h */,
+				F78FBE091E32BD3300D87903 /* BaseTabBarViewController.m */,
+				F78FBE101E33304F00D87903 /* DLBaseViewController.h */,
+				F78FBE111E33304F00D87903 /* DLBaseViewController.m */,
+				F78FBE1D1E33320400D87903 /* DLBaseNavigationViewController.h */,
+				F78FBE1E1E33320400D87903 /* DLBaseNavigationViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		F78FBE0C1E32BD5C00D87903 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F78FBE0D1E32BDC800D87903 /* DLTabBar.h */,
+				F78FBE0E1E32BDC800D87903 /* DLTabBar.m */,
+				F76572F71E35503900EDEF80 /* DLTopView.h */,
+				F76572F81E35503900EDEF80 /* DLTopView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F78FBDE21E32AA6400D87903 /* DLVideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F78FBDFA1E32AA6500D87903 /* Build configuration list for PBXNativeTarget "DLVideo" */;
+			buildPhases = (
+				40333ECF86CE787C523C8A13 /* [CP] Check Pods Manifest.lock */,
+				F78FBDDF1E32AA6400D87903 /* Sources */,
+				F78FBDE01E32AA6400D87903 /* Frameworks */,
+				F78FBDE11E32AA6400D87903 /* Resources */,
+				0156DF900928E37223B9081B /* [CP] Embed Pods Frameworks */,
+				36A742CFCE47CD861AD4D3DC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DLVideo;
+			productName = DLVideo;
+			productReference = F78FBDE31E32AA6400D87903 /* DLVideo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F78FBDDB1E32AA6400D87903 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DL;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = itdarlin;
+				TargetAttributes = {
+					F78FBDE21E32AA6400D87903 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F78FBDDE1E32AA6400D87903 /* Build configuration list for PBXProject "DLVideo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F78FBDDA1E32AA6400D87903;
+			productRefGroup = F78FBDE41E32AA6400D87903 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F78FBDE21E32AA6400D87903 /* DLVideo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F78FBDE11E32AA6400D87903 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F78FBDF61E32AA6500D87903 /* LaunchScreen.storyboard in Resources */,
+				F78FBE2F1E341E7200D87903 /* DLLaunchViewController.xib in Resources */,
+				F78FBE1C1E33307200D87903 /* DLMeViewController.xib in Resources */,
+				F78FBE2A1E33C20C00D87903 /* DLNearViewController.xib in Resources */,
+				F78FBE171E33306200D87903 /* DLMainViewController.xib in Resources */,
+				F78FBDF31E32AA6500D87903 /* Assets.xcassets in Resources */,
+				F78FBDF11E32AA6500D87903 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0156DF900928E37223B9081B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DLVideo/Pods-DLVideo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36A742CFCE47CD861AD4D3DC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DLVideo/Pods-DLVideo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40333ECF86CE787C523C8A13 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F78FBDDF1E32AA6400D87903 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F765730D1E359BC800EDEF80 /* DLHotModel.m in Sources */,
+				F765730A1E3595E600EDEF80 /* DLHotViewModel.m in Sources */,
+				F76573131E35A95200EDEF80 /* MJExtensionConfig.m in Sources */,
+				F78FBE121E33304F00D87903 /* DLBaseViewController.m in Sources */,
+				F78FBE2E1E341E7200D87903 /* DLLaunchViewController.m in Sources */,
+				F76573041E35845000EDEF80 /* UIImageView+SDWebImage.m in Sources */,
+				F78FBE351E3425EC00D87903 /* DLHotViewController.m in Sources */,
+				F78FBE161E33306200D87903 /* DLMainViewController.m in Sources */,
+				F78FBE1F1E33320400D87903 /* DLBaseNavigationViewController.m in Sources */,
+				F78FBE381E342BFE00D87903 /* UIView+Frame.m in Sources */,
+				F76572F91E35503900EDEF80 /* DLTopView.m in Sources */,
+				F78FBE0A1E32BD3300D87903 /* BaseTabBarViewController.m in Sources */,
+				F78FBE0F1E32BDC800D87903 /* DLTabBar.m in Sources */,
+				F78FBDEB1E32AA6500D87903 /* AppDelegate.m in Sources */,
+				F78FBE1B1E33307200D87903 /* DLMeViewController.m in Sources */,
+				F78FBDE81E32AA6500D87903 /* main.m in Sources */,
+				F78FBE291E33C20C00D87903 /* DLNearViewController.m in Sources */,
+				F78FBE321E3425D800D87903 /* DLFocusViewController.m in Sources */,
+				F76573161E35AC2E00EDEF80 /* DLADModel.m in Sources */,
+				F76573071E3595C700EDEF80 /* DLADViewModel.m in Sources */,
+				F76573101E35A2A100EDEF80 /* DLCreator.m in Sources */,
+				F76573031E35845000EDEF80 /* HttpTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F78FBDEF1E32AA6500D87903 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F78FBDF01E32AA6500D87903 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F78FBDF41E32AA6500D87903 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F78FBDF51E32AA6500D87903 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F78FBDF81E32AA6500D87903 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F78FBDF91E32AA6500D87903 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F78FBDFB1E32AA6500D87903 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C649FCBA11BA43D7685A3943 /* Pods-DLVideo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = /Users/DalinXie/Desktop/DLVideo/Class/Other/DLVideo.pch;
+				INFOPLIST_FILE = DLVideo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.darlin.ios.DLVideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F78FBDFC1E32AA6500D87903 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D978BB3C2660E3FA5415F92F /* Pods-DLVideo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = /Users/DalinXie/Desktop/DLVideo/Class/Other/DLVideo.pch;
+				INFOPLIST_FILE = DLVideo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.darlin.ios.DLVideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F78FBDDE1E32AA6400D87903 /* Build configuration list for PBXProject "DLVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F78FBDF81E32AA6500D87903 /* Debug */,
+				F78FBDF91E32AA6500D87903 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F78FBDFA1E32AA6500D87903 /* Build configuration list for PBXNativeTarget "DLVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F78FBDFB1E32AA6500D87903 /* Debug */,
+				F78FBDFC1E32AA6500D87903 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F78FBDDB1E32AA6400D87903 /* Project object */;
+}

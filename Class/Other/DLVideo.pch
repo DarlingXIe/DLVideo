@@ -1,0 +1,33 @@
+//
+//  PrefixHeader.pch
+//  DLVideo
+//
+//  Created by DalinXie on 17/1/20.
+//  Copyright © 2017年 itdarlin. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+
+#define NAV_HEIGHT 64
+
+#define NAV_TitleView 49
+
+#define RGB(x,y,z) [UIColor colorWithRed:(x/255.0) green:(y/255.0) blue:(z/255.0) alpha:1]
+
+#import "DLBaseViewController.h"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "AFNetworking.h"
+#import "Masonry.h"
+#import "UIView+Frame.h"
+#import "YYKit.h"
+#import "APIConfig.h"
+#import "HttpTool.h"
+#import "UIImageView+SDWebImage.h"
+#import "MJExtension.h"
+#endif /* PrefixHeader_pch */
